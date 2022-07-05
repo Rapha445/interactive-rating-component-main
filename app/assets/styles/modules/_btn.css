@@ -1,0 +1,43 @@
+.btn {
+  width: clamp(2.5rem, 8.9vw, 3.125rem);
+  height: clamp(2.5rem, 8.9vw, 3.125rem);
+  background-color: rgb(45, 53, 64, 0.9);
+  border-radius: 50%;
+  border: none;
+  color: hsl(217, 12%, 63%);
+  font-size: clamp(0.89rem, 3.1vw, 1rem);
+  transition: all 0.2s;
+
+  &--rating {
+    cursor: pointer;
+    &:hover {
+      background-color: hsl(217, 12%, 63%);
+      color: hsl(0, 0%, 100%);
+    }
+    &:active {
+      background-color: hsl(25, 97%, 53%);
+    }
+  }
+
+  &--submit {
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    width: 100%;
+    border-radius: 1.5rem;
+    height: 2.813rem;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 0.1rem;
+    &:hover,
+    &:active {
+      background-color: hsl(0, 0%, 100%);
+      color: hsl(25, 97%, 53%);
+    }
+  }
+
+  &--selection {
+    color: hsl(25, 97%, 53%);
+    width: 10.313rem;
+    border-radius: 1.5rem;
+    height: 1.875rem;
+  }
+}

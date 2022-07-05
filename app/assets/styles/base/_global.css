@@ -1,0 +1,24 @@
+html {
+  scroll-behavior: smooth;
+  color: hsl(217, 12%, 63%);
+  font-family: "Overpass", sans-serif;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+li {
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

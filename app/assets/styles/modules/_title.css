@@ -1,0 +1,15 @@
+.title {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-top: min(1.3vw, 1.2rem);
+
+  &--align-center {
+    text-align: center;
+  }
+
+  &--more-padding {
+    padding-top: 1.5rem;
+    padding-bottom: 0.8rem;
+  }
+}

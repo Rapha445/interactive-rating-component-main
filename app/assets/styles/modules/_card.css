@@ -1,0 +1,39 @@
+.card {
+  background: rgb(37, 45, 55);
+  background: linear-gradient(
+    180deg,
+    rgba(37, 45, 55, 1) 0%,
+    rgba(27, 32, 40, 1) 100%
+  );
+  padding-left: 1.375rem;
+  padding-right: 1.375rem;
+  padding-top: 1.375rem;
+  padding-bottom: 1.875rem;
+  border-radius: 1rem;
+  width: clamp(20.5rem, 68vw, 25.625rem);
+  height: clamp(22.5rem, 79.4vw, 25rem);
+
+  &--padding-bottom-l {
+    padding-bottom: 2.8rem;
+  }
+
+  &__star {
+    &__icon {
+      max-width: 40%;
+      max-height: 38%;
+    }
+  }
+
+  &__rating {
+    padding-top: 1.875rem;
+    padding-bottom: 1.375rem;
+  }
+
+  &__phone {
+    padding-top: 0.7rem;
+    padding-bottom: 1.5rem;
+    &__image {
+      max-height: 6.25rem;
+    }
+  }
+}

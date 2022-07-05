@@ -1,0 +1,13 @@
+.modal {
+  position: absolute;
+  top: 23%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: opacity 0.2s;
+  opacity: 1;
+
+  &--off {
+    opacity: 0;
+    z-index: -1;
+  }
+}

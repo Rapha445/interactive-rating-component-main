@@ -1,0 +1,12 @@
+@import "normalize.css";
+@import "animate.css";
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+@import "base/_global.css";
+@import "modules/_container.css";
+@import "modules/_flex.css";
+@import "modules/_card.css";
+@import "modules/_btn.css";
+@import "modules/_title.css";
+@import "modules/_text.css";
+@import "modules/_modal.css";
+@import "modules/_preload.css";
