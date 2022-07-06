@@ -20,7 +20,7 @@ const postCSSPlugins = [
 class RunAfterCompile {
     apply(compiler) {
         compiler.hooks.done.tap('Copy images', function () {
-            fse.copySync('./docs/assets/images', './dist/assets/images')
+            fse.copySync('./app/assets/images', './docs/assets/images')
             // change to docs for GitHub
         })
     }
