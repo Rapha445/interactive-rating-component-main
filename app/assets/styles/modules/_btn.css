@@ -14,8 +14,9 @@
       background-color: hsl(217, 12%, 63%);
       color: hsl(0, 0%, 100%);
     }
-    &:active {
+    &:focus {
       background-color: hsl(25, 97%, 53%);
+      color: hsl(0, 0%, 100%);
     }
   }
 
@@ -27,8 +28,7 @@
     height: 2.813rem;
     color: hsl(0, 0%, 100%);
     letter-spacing: 0.1rem;
-    &:hover,
-    &:active {
+    &:hover {
       background-color: hsl(0, 0%, 100%);
       color: hsl(25, 97%, 53%);
     }
@@ -36,7 +36,7 @@
 
   &--selection {
     color: hsl(25, 97%, 53%);
-    width: 10.313rem;
+    width: 12rem;
     border-radius: 1.5rem;
     height: 1.875rem;
   }

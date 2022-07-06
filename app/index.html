@@ -20,7 +20,7 @@
 
   <div class="container flex flex--align-center flex--justify-center">
     <!-- Rating state start -->
-    <div class="card">
+    <div class="card card--one">
     <div class="card__star btn flex flex--align-center flex--justify-center">
       <img class="card__star__icon" src="./assets/images/icon-star.svg" alt="">
     </div>
@@ -38,12 +38,12 @@
   </div>
  <!-- Rating state end -->
  <!-- Thank you state start -->
-  <div class="card card--padding-bottom-l modal modal--off">
+  <div class="card card--two card--padding-bottom-l modal modal--after modal--off">
     <div class="card__phone flex flex--justify-center">
     <img class="card__phone__image" src="./assets/images/illustration-thank-you.svg" alt="">
   </div>
     <div class="flex flex--justify-center">
-      <button class="btn btn--selection">You selected <!-- Add rating here --> out of 5</button>
+      <button class="btn btn--selection">You selected <span id="scoreDisplay">0</span> out of 5</button>
     </div>
     <h2 class="title title--align-center title--more-padding">Thank you!</h2>
     <p class="text text--align-center">We appreciate you taking the time to give a rating. If you ever need more support, 
